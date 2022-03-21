@@ -1,2 +1,2 @@
 Sitio de vacunación
-![](Andares.pdf)
+![](Marketing/Andares.pdf)
