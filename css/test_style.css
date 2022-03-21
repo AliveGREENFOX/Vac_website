@@ -1,0 +1,498 @@
+.banner{
+    display: inline-block;
+    padding: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 25px;
+}
+
+.banner_container{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.benefits{
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
+    padding: 20px 25px;
+    height: 150px;
+    
+    transition: 0.3s;
+    margin: 10px;
+}
+
+.benefits_container{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    margin: 20px;
+    
+}
+
+.benefits:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+body{
+    background-image: url(../Assets/Images/background_1.jpg);
+}
+
+#data_base{
+    text-align: right;    
+    font-weight: bold;
+    /*color: brown;    */
+}
+
+#menu_image{
+    border: 2px solid #02316b;
+    padding: 8px;
+    float: left;
+    margin-right: 10px;
+    background-color: rgba(31, 92, 167, .25);
+    border-radius: 8px;
+}
+
+#shield_image{
+    border: 2px solid #02316b;
+    padding: 8px;
+    float: left;
+    background-color: rgba(31, 92, 167, .25);
+    border-radius: 8px;
+}
+
+#shield_text{
+    display: block;
+    margin-top: 40px;
+    
+}
+
+#users_image{
+    border: 2px solid #02316b;
+    padding: 8px;
+    float: left;
+    background-color: rgba(31, 92, 167, .25);
+    border-radius: 8px;
+}
+
+#chart_image{
+    border: 2px solid #02316b;
+    padding: 8px;
+    float: left;
+    background-color: rgba(31, 92, 167, .25);
+    border-radius: 8px;
+}
+
+/*------------Emergency---------------*/
+
+.emergency_blcks_container{
+    text-align: center;
+    margin: 20px;
+}
+
+.Emergency_container{
+    
+    display: flex;
+    
+}
+
+.emergency_image{
+    
+    display: inline-block;        
+    
+}
+
+.emergency_blcks_container{
+    
+    display: grid;
+    grid-template-columns: 250px 250px;
+    
+}
+
+.emergency_txt_container{
+    
+    display: inline-block;
+    margin-left: 500px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.blocks{
+    display: inline-block;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    padding: 20px 25px;
+    transition: 0.3s;
+    margin: 25px;
+}
+
+.block_message{
+    flex: 1;
+    
+}
+
+.test_block{    
+    flex: 1;
+}
+
+.blocks_buttons{
+    border: 2px solid #3c8bf1;
+    background: #e7e7e7;
+    font-size: 16px;
+    border-radius: 4px;
+    transition-duration: 0.4s;
+    display: block;
+
+    margin-top: 10px;
+
+    height: 50px;
+    width: 150px;
+}
+
+.blocks_buttons:hover{
+    background-color: #3c8bf1; /* Green */
+    border: 2px solid #e7e7e7;
+    color: white;
+    cursor: pointer;
+}
+
+.blocks_container_2{
+    text-align: center;
+    display: flex;
+}
+
+#emergency_phone{
+    padding-top: 5px;
+}
+
+#emergency_message{
+    padding-top: 7px;
+}
+
+#emergency_video{
+    padding-top: 15px;
+}
+
+#emergency_mail{
+    padding-top: 5px;
+}
+
+/*------------FOOTER---------------*/
+.footer_background{
+    
+}
+
+.footer_container{
+    
+    margin: 20px;
+}
+
+.footer_info{      
+    float: right;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px 25px;
+    transition: 0.3s;
+    margin: 25px;
+}
+
+.footer_title{
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px 25px;
+    transition: 0.3s;
+    margin: 25px;
+}
+
+#f_title{
+    color: #02316b;
+}
+
+#f_title_2, #f_title_3, #f_title_4{
+    color: #1f5ca7;
+}
+/*-----------HEADER-------------*/
+
+.header_container{
+    margin: 5px;
+    display: flex;
+    
+}
+
+.header_container_2{
+    display: flex;
+    margin-left: 900px;
+    
+}
+
+#header_button{
+        
+    border: 2px solid #e7e7e7;
+    background-color: white;
+    font-size: 32px;
+    border-radius: 4px;
+    transition-duration: 0.4s;
+    text-align: center;
+    width: 200px;
+    height: 50px;
+}
+
+#header_button:hover{
+    background: white;
+    border: 2px solid #3c8bf1;
+    color: black;
+    cursor: pointer;
+}
+
+.header_title{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px 25px;
+    transition: 0.3s;
+    margin: 25px;
+}
+
+.header_info{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    text-align: center;
+    cursor: pointer;
+    height: 50px;    
+    transition: 0.3s;
+    margin: 10px;
+}
+
+/*--------------NURSE SECTION----------------*/
+
+.nurse_container{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+#nurse_title{
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#nurse_content{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#nurse_image_container{
+    display: flex;    
+}
+
+#nurse_text{
+    text-align: center;        
+}
+
+#nurse_text_container_2{
+    
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin-right: 5px;
+    justify-content: center;
+}
+
+.protection_container{
+    display: flex;
+    margin: 5px;
+}
+
+.protection_container img {
+    margin-right: 5px;
+    margin-top: 10px;
+    display: block;
+  }
+
+.select_container{
+      display: flex;
+      margin: 5px;
+  }
+
+.select_container img{
+    margin-right: 5px;
+    margin-top: 10px;
+    display: block;
+}
+
+#selected_container{
+    display: flex;
+}
+
+#vaccine_schedule{
+    display: flex;
+    border: 2px solid black;
+    background-color: aliceblue;
+    border-radius: 6px;
+}
+
+.vaccine_date{
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+}
+
+#vaccine_date_2{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#vaccine_date_3{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#vaccine_date_4{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#calendar{
+    
+    margin: 10px;
+}
+
+#location{
+    margin: 11px;
+}
+
+#vaccine{
+    margin: 11px;
+}
+
+#vaccine_button{
+    background-color: white;
+    margin-top: 25px;
+    height: 50px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100px;
+    border-radius: 20px;
+    border-width: 2.5px;
+    border-color: aliceblue;
+    transition-duration: 0.4s;
+}
+
+#vaccine_button:hover{
+    cursor: pointer;
+    background-color: #2883F1;
+}
+
+/*-------------PREPARATION SECTION-----------------*/
+.preparation{
+    display: block;
+    text-align: center;
+    
+    padding: 20px 25px;
+    transition: 0.3s;
+    margin: 25px;
+    width: auto;
+}
+
+.preparation_text{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+}
+
+.preparation_buttons{
+    display: inline-block;
+    width: auto;    
+    
+}
+
+/**********************************/
+.preparation_btn{
+    background-color: rgb(204, 207, 255);
+    color: #0f2f58;
+    cursor: pointer;
+    padding: 18px;
+    margin: 5px;
+    width: 300px;
+    border-radius: 4px;
+    text-align: center;
+    outline: none;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.active, .preparation_btn:hover {
+    background-color: #3c8bf1;
+}
+
+.preparation_btn:after{
+    content: '\002B';
+    color: white;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: "\2212";
+}
+
+.btn_content{
+    justify-content: center;
+    max-height: 0;
+    overflow: hidden;
+    width: 250px;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: max-height 0.2s ease-out;
+    background-color: white;
+}
+
+/**********************************/
+/*
+.content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+}
+*/
+/*
+.preparation_btn:hover{
+    background-color: #3c8bf1;
+    border: 2px solid #e7e7e7;
+    color: white;
+    cursor: pointer;
+}
+*/
+.preparation_container{
+    text-align: center;   
+    padding-left: 250px;
+    display: flex;
+}
+
+.preparation_image{
+    display: flex;
+    padding: 20px 25px;
+    transition: 0.3s;    
+    margin: 25px;    
+}
+
+#rin_image{
+    max-height: 100%;
+    max-width: 100%;
+}
+
+/*------------------------------*/
+
+
+.title{
+    display: inline-block;
+    text-align: right;
+}
+
+#titulo_porque_vacuna{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+
+.vaccine_info{
+    margin-left: 250px;
+}
